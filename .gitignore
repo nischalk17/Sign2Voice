@@ -13,3 +13,9 @@ metrics/
 .vscode/
 .DS_Store
 Thumbs.db
+
+# ─── old NLTK n-gram assets we’re dropping ─────────────────────────
+data/build_language_model.py
+utils/train_trigram.py
+models/trigram*.pkl
+data/corpus.txt
