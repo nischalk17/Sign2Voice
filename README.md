@@ -40,7 +40,7 @@
 # Processing steps:
 -> Used a landmark extraction script (extract_landmarks.py) with MediaPipe to convert raw images into 63-dimensional vectors (21 landmarks × 3 coordinates).
 -> Filtered out images with low confidence or no hand detected.
--> Created .npz files (landmarks_train.npz, landmarks_test.npz) with landmark vectors and labels.
+-> Created .npz file (landmarks_train.npz) with landmark vectors and labels.
 
 
 # Machine Learning Model:
