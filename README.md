@@ -26,6 +26,8 @@
 -> scikit-learn for train/test splitting and evaluation.
 -> Text-to-Speech (TTS): Python pyttsx3 or any other TTS library for audio output.
 -> JSON for saving label mappings and model metadata.
+-> Tkinter + OpenCV video for GUI
+-> Local distilgpt2 (HuggingFace) for Smart word suggestions
 
 
 # Dataset:
@@ -77,8 +79,8 @@
 -> MediaPipe extracts 3D hand landmarks.
 -> CNN model predicts the signed letter.
 -> Text output is shown on the screen.
--> Pressing 'S' converts text to speech.
--> Pressing 'C' clears the sentence.
+-> Control/Suggestion buttons.
+-> Local distilgpt2 (HuggingFace) queried once every 5 s → top-3 next-token words for Smart Word Suggestions.
 -> Model loading and prediction in real-time with reasonable speed.
 
 
@@ -92,5 +94,5 @@
     Update: Allow editing of saved transcripts, 
     Delete: Remove unwanted records
 -> More Robust TTS- Customize voices or languages
--> Sentence Suggestions (Smart Predict)- Use basic NLP to suggest next letters or words based on current input.
+-> Improve Smart Word Suggestions
 -> Reverse Module: Voice/Text to Sign Animation 
